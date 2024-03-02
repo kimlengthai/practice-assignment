@@ -1,0 +1,170 @@
+body
+{
+  background-color: #1e1919;
+}
+
+.outer-border-container
+{
+  width: 330px;
+  height: 330px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.outer-circle
+{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: circle 5s linear infinite;
+  animation: circle 5s linear infinite;
+}
+
+@-webkit-keyframes circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-165px)rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg)translate(-165px)rotate(-360deg);
+  }
+}
+
+@keyframes circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-165px)rotate(-360deg);
+  }
+  100%
+  {
+    transform: rotate(360deg)translate(-165px)rotate(-360deg);
+  }
+}
+
+.second-border-container
+{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.second-circle
+{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: second-circle 5s linear infinite;
+  animation: second-circle 5s linear infinite;
+}
+
+@-webkit-keyframes second-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-125px)rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg)translate(-125px)rotate(-360deg);
+  }
+}
+
+@keyframes second-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-125px)rotate(-360deg);
+  }
+  100%
+  {
+    transform: rotate(360deg)translate(-125px)rotate(-360deg);
+  }
+}
+
+.third-border-container
+{
+  width: 170px;
+  height: 170px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+
+.inner-circle
+{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: inner-circle 5s linear infinite;
+  animation: inner-circle 5s linear infinite;
+}
+
+@-webkit-keyframes inner-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-85px)rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg)translate(-85px)rotate(-360deg);
+  }
+}
+
+@keyframes inner-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-85px)rotate(-360deg);
+  }
+  100%
+  {
+    transform: rotate(360deg)translate(-85px)rotate(-360deg);
+  }
+}
