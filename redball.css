@@ -65,7 +65,7 @@ body
 
 .shadow
 {
-  background-color: rgba(8, 8, 8, 0.05);
+  background-color: rgba(8, 8, 8, 1);
   height: 10px;
   width: 65px;
   border-radius: 50%;
