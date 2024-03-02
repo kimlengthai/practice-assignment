@@ -1,12 +1,41 @@
 body
 {
   background-color: #1e1919;
+  font: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+.header
+{
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  z-index: 10;
+  height: auto;
+  width: 100%;
+}
+.quantum
+{
+  color: red;
+}
+.physics
+{
+  color: blue;
+}
+.for
+{
+  color: black;
+}
+.babies
+{
+  color: yellow;
 }
 
 .outer-border-container
 {
-  width: 330px;
-  height: 330px;
+  width: 350px;
+  height: 350px;
   border: 2px solid #ccc;
   position: absolute;
   top: 0;
@@ -30,19 +59,19 @@ body
   right: 0;
   overflow: hidden;
   margin: auto;
-  -webkit-animation: circle 5s linear infinite;
-  animation: circle 5s linear infinite;
+  -webkit-animation: circle 4s linear infinite;
+  animation: circle 4s linear infinite;
 }
 
 @-webkit-keyframes circle
 {
   0%
   {
-    transform: rotate(0deg)translate(-165px)rotate(0deg);
+    transform: rotate(0deg)translate(-175px)rotate(0deg);
   }
   100%
   {
-    transform: rotate(360deg)translate(-165px)rotate(-360deg);
+    transform: rotate(360deg)translate(-175px)rotate(-360deg);
   }
 }
 
@@ -50,18 +79,18 @@ body
 {
   0%
   {
-    transform: rotate(0deg)translate(-165px)rotate(-360deg);
+    transform: rotate(0deg)translate(-175px)rotate(-360deg);
   }
   100%
   {
-    transform: rotate(360deg)translate(-165px)rotate(-360deg);
+    transform: rotate(360deg)translate(-175px)rotate(-360deg);
   }
 }
 
 .second-border-container
 {
-  width: 250px;
-  height: 250px;
+  width: 270px;
+  height: 270px;
   border: 2px solid #ccc;
   position: absolute;
   top: 0;
@@ -93,11 +122,11 @@ body
 {
   0%
   {
-    transform: rotate(0deg)translate(-125px)rotate(0deg);
+    transform: rotate(0deg)translate(-135px)rotate(0deg);
   }
   100%
   {
-    transform: rotate(360deg)translate(-125px)rotate(-360deg);
+    transform: rotate(360deg)translate(-135px)rotate(-360deg);
   }
 }
 
@@ -105,11 +134,11 @@ body
 {
   0%
   {
-    transform: rotate(0deg)translate(-125px)rotate(-360deg);
+    transform: rotate(0deg)translate(-135px)rotate(-360deg);
   }
   100%
   {
-    transform: rotate(360deg)translate(-125px)rotate(-360deg);
+    transform: rotate(360deg)translate(-135px)rotate(-360deg);
   }
 }
 
@@ -141,8 +170,8 @@ body
   right: 0;
   overflow: hidden;
   margin: auto;
-  -webkit-animation: inner-circle 5s linear infinite;
-  animation: inner-circle 5s linear infinite;
+  -webkit-animation: inner-circle 6s linear infinite;
+  animation: inner-circle 6s linear infinite;
 }
 
 @-webkit-keyframes inner-circle
@@ -167,4 +196,15 @@ body
   {
     transform: rotate(360deg)translate(-85px)rotate(-360deg);
   }
+}
+.footer
+{
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  z-index: 10;
+  height: auto;
+  width: 100%;
 }
