@@ -99,14 +99,29 @@ body
 @media only screen and (min-width: 768px)
 {
   .footer
-{
-  position: absolute;
-  top: 80%;
-  left: 77%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  z-index: 10;
-  height: auto;
-  width: 100%;
+  {
+    position: absolute;
+    top: 80%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
 }
+
+@media only screen and (min-width: 768px)
+{
+  .footer
+  {
+    position: absolute;
+    top: 80%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
 }
