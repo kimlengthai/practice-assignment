@@ -59,11 +59,11 @@ body
   right: 0;
   overflow: hidden;
   margin: auto;
-  -webkit-animation: circle 4s linear infinite;
-  animation: circle 4s linear infinite;
+  -webkit-animation: outer-circle 4s linear infinite;
+  animation: outer-circle 4s linear infinite;
 }
 
-@-webkit-keyframes circle
+@-webkit-keyframes outer-circle
 {
   0%
   {
@@ -75,7 +75,7 @@ body
   }
 }
 
-@keyframes circle
+@keyframes outer-circle
 {
   0%
   {
@@ -208,3 +208,4 @@ body
   height: auto;
   width: 100%;
 }
+
