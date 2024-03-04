@@ -214,7 +214,7 @@ body
   .header
 {
   position: absolute;
-  transform: translate(-55%, -50%);
+  transform: translate(-53%, -50%);
   font-size: 50px;
   height: auto;
   display: block;
@@ -223,8 +223,34 @@ body
 .footer
 {
   position: absolute;
-  transform: translate(-60%, -50%);
+  transform: translate(-55%, -50%);
   font-size: 60px;
+  height: auto;
+  width: 100%;
+}
+}
+
+@media only screen and (min-width: 1024px)
+{
+  .header
+  {
+    position: absolute;
+  top: 20%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  z-index: 10;
+  height: auto;
+  width: 100%;
+  }
+  .footer
+{
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  z-index: 10;
   height: auto;
   width: 100%;
 }
