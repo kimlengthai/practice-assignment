@@ -212,22 +212,47 @@ body
 @media only screen and (min-width: 768px)
 {
   .header
-{
-  position: absolute;
-  transform: translate(-56%, -50%);
-  font-size: 50px;
-  height: auto;
-  display: block;
-  width: 100%;
+  {
+    position: absolute;
+    transform: translate(-56%, -50%);
+    font-size: 50px;
+    height: auto;
+    display: block;
+    width: 100%;
+  }
+  .footer
+  {
+    position: absolute;
+    transform: translate(-59%, -50%);
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+  }
 }
-.footer
+@media only screen and (min-width: 820px)
 {
-  position: absolute;
-  transform: translate(-59%, -50%);
-  font-size: 60px;
-  height: auto;
-  width: 100%;
-}
+  .header
+  {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-60%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
+  .footer
+  {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-55%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1024px)
@@ -235,24 +260,25 @@ body
   .header
   {
     position: absolute;
-  top: 20%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  z-index: 10;
-  height: auto;
-  width: 100%;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
   }
   .footer
-{
-  position: absolute;
-  top: 80%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  z-index: 10;
-  height: auto;
-  width: 100%;
+  {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
 }
-}
+
 
