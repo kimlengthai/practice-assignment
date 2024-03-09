@@ -308,15 +308,6 @@
 
 @media only screen and (min-width: 768px)
 {
-  .header
-  {
-    position: absolute;
-    transform: translate(-57%, -50%);
-    font-size: 50px;
-    height: auto;
-    display: block;
-    width: 100%;
-  }
   .footer
   {
     position: absolute;
