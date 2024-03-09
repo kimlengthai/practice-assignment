@@ -700,6 +700,221 @@ body
     height: auto;
     width: 100%;
   }
+  .ball
+    {
+      width: 200px;
+      box-sizing: content-box;
+      height: 200px;
+      position: relative;
+      border-radius: 50%;
+      background-color: red;
+      bottom: -600px;
+      left: 600px;
+      z-index: -1;
+    }
+    .the-outer-circle
+  {
+      width: 400px;
+      height: 400px;
+      border: 15px solid black;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 50%;
+      background-color: rgb(172, 235, 235);
+      box-shadow: inset 0px 10px 20px 5px rgba(255,255,255),
+      inset 0px -10px 20px 5px rgba(255,255,255);
+  }
+  .magnify-glass
+  {
+      font-size: 10em;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      position: relative;
+  }
+  
+  .magnify-glass::before
+  {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      right: -330px;
+      bottom: -830px;
+      background-color: black;
+      width: 150px;
+      height: 40px;
+      transform: rotate(310deg);
+  }
+    .outer-border-container
+  {
+      width: 300px;
+      height: 300px;
+      border: 2px solid black;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 50%;
+  }
+  
+  .outer-circle
+  {
+      width: 30px;
+      height: 30px;
+      background-color: green;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      margin: auto;
+      -webkit-animation: outer-circle 4s linear infinite;
+      animation: outer-circle 4s linear infinite;
+  }
+  
+  @-webkit-keyframes outer-circle
+  {
+    0%
+    {
+      transform: rotate(0deg)translate(-150px)rotate(0deg);
+    }
+    100%
+    {
+      transform: rotate(360deg)translate(-150px)rotate(-360deg);
+    }
+  }
+  
+  @keyframes outer-circle
+  {
+    0%
+    {
+      transform: rotate(0deg)translate(-150px)rotate(-360deg);
+    }
+    100%
+    {
+      transform: rotate(360deg)translate(-150px)rotate(-360deg);
+    }
+  }
+  
+  .second-border-container
+  {
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  .second-circle
+  {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    -webkit-animation: second-circle 5s linear infinite;
+    animation: second-circle 5s linear infinite;
+  }
+  
+  @-webkit-keyframes second-circle
+  {
+    0%
+    {
+      transform: rotate(0deg)translate(-110px)rotate(0deg);
+    }
+    100%
+    {
+      transform: rotate(360deg)translate(-110px)rotate(-360deg);
+    }
+  }
+  
+  @keyframes second-circle
+  {
+    0%
+    {
+      transform: rotate(0deg)translate(-110px)rotate(-360deg);
+    }
+    100%
+    {
+      transform: rotate(360deg)translate(-110px)rotate(-360deg);
+    }
+  }
+  
+  .third-border-container
+  {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  
+  .inner-circle
+  {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    -webkit-animation: inner-circle 6s linear infinite;
+    animation: inner-circle 6s linear infinite;
+  }
+  
+  @-webkit-keyframes inner-circle
+  {
+    0%
+    {
+      transform: rotate(0deg)translate(-60px)rotate(0deg);
+    }
+    100%
+    {
+      transform: rotate(360deg)translate(-60px)rotate(-360deg);
+    }
+  }
+  
+  @keyframes inner-circle
+  {
+    0%
+    {
+      transform: rotate(0deg)translate(-60px)rotate(-360deg);
+    }
+    100%
+    {
+      transform: rotate(360deg)translate(-60px)rotate(-360deg);
+    }
+  }
 }
 
 
