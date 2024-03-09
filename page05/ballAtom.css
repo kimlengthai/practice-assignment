@@ -17,6 +17,31 @@ body
     margin: auto;
     border-radius: 50%;
     background-color: rgb(172, 235, 235);
+    box-shadow: inset 0px 10px 20px 5px rgba(255,255,255),
+    inset 0px -10px 20px 5px rgba(255,255,255);
+}
+.magnify-glass
+{
+    font-size: 10em;
+    display: inline-block;
+    width: 0.4em;
+    box-sizing: content-box;
+    height: 0.4em;
+    position: relative;
+}
+
+.magnify-glass::before
+{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: -330px;
+    bottom: -880px;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    transform: rotate(310deg);
+
 }
 
 .outer-border-container
