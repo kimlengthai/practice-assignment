@@ -41,7 +41,19 @@ body
     width: 200px;
     height: 40px;
     transform: rotate(310deg);
+}
 
+.ball
+{
+    width: 250px;
+    box-sizing: content-box;
+    height: 250px;
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    bottom: -580px;
+    left: 580px;
+    z-index: -1;
 }
 
 .outer-border-container
