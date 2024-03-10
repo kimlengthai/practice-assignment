@@ -578,11 +578,16 @@ body
     position: absolute;
     top: 80%;
     left: 80%;
-    transform: translate(-50%, -50%);
+    transform: translate(-59%, -50%);
     font-size: 60px;
     z-index: 10;
     height: auto;
     width: 100%;
+  }
+  .electron, .energy, .have
+  {
+    font-size: 60px;
+    right: 30px;
   }
 }
 
