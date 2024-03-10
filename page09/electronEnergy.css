@@ -18,7 +18,7 @@ body
   margin: auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  clip-path: ellipse(62% 100% at 50% 0%);
+  clip-path: ellipse(65% 90% at 50% 0%);
 }
 
 .outer-circle
@@ -84,7 +84,7 @@ body
   margin: auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  clip-path: ellipse(63% 100% at 50% 0%);
+  clip-path: ellipse(65% 90% at 50% 0%);
 }
 
 .second-circle
@@ -149,7 +149,7 @@ body
   margin: auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
-  clip-path: ellipse(67% 100% at 50% 0%);
+  clip-path: ellipse(70% 90% at 50% 0%);
 }
 
 
