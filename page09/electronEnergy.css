@@ -3,8 +3,6 @@ body
   background-color: #1e1919;
   font: 'Nunito Sans', sans-serif;
   font-weight: bold;
-
- /* transform: translate(-50%, -50%); */
 }
 
 .outer-border-container
@@ -84,7 +82,9 @@ body
   left: 0;
   right: 0;
   margin: auto;
-  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  clip-path: ellipse(63% 100% at 50% 0%);
 }
 
 .second-circle
@@ -147,7 +147,9 @@ body
   left: 0;
   right: 0;
   margin: auto;
-  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  clip-path: ellipse(65% 100% at 50% 0%);
 }
 
 
