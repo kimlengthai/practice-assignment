@@ -151,7 +151,6 @@ body
   clip-path: ellipse(70% 90% at 50% 0%);
 }
 
-
 .inner-circle
 {
   width: 30px;
@@ -200,6 +199,7 @@ body
     transform: rotate(0deg)translate(-85px)rotate(0deg);
   }
 }
+
 .footer
 {
   position: absolute;
@@ -209,6 +209,7 @@ body
   height: auto;
   width: 100%;
 }
+
 .electron, .energy, .have
 {
     font-size: 50px;
@@ -248,19 +249,16 @@ body
   left: 0;
   z-index: 1;
 }
-
 .sunlight-box span:first-child
 {
   transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
 }
-
 .sunlight-box span:nth-child(2)
 {
   transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
 }
-
 .sunlight-box span:nth-child(3)
 {
   transform: rotate(90deg);
@@ -324,19 +322,16 @@ body
   left: 0;
   z-index: 1;
 }
-
 .sunlight-box-2 span:first-child
 {
   transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
 }
-
 .sunlight-box-2 span:nth-child(2)
 {
   transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
 }
-
 .sunlight-box-2 span:nth-child(3)
 {
   transform: rotate(90deg);
@@ -400,19 +395,16 @@ body
   left: 0;
   z-index: 1;
 }
-
 .sunlight-box-3 span:first-child
 {
   transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
 }
-
 .sunlight-box-3 span:nth-child(2)
 {
   transform: rotate(60deg);
   -webkit-transform: rotate(60deg);
 }
-
 .sunlight-box-3 span:nth-child(3)
 {
   transform: rotate(90deg);
@@ -460,6 +452,7 @@ body
   left: calc(45% - 25px);
   border: 2px solid;
 }
+
 .blue-ball
 {
   position: absolute;
@@ -470,18 +463,17 @@ body
   border: 2px solid;
 }
 
-.blue-ball 
-{
-  background-color: blue;
-  border-radius: 50%;
-}
-
 .red-ball 
 {
   background-color: red;
   border-radius: 50%;
 }
 
+.blue-ball 
+{
+  background-color: blue;
+  border-radius: 50%;
+}
 
 @media only screen and (min-width: 768px)
 {
@@ -494,6 +486,7 @@ body
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 820px)
 {
   .footer
@@ -507,6 +500,7 @@ body
     height: auto;
     width: 100%;
   }
+
   .outer-border-container
   {
     width: 350px;
@@ -537,9 +531,8 @@ body
     -webkit-animation: Rotate-3 4s linear infinite;
     z-index: -1;
   }
-  
 
-    .second-border-container
+  .second-border-container
   {
     width: 270px;
     height: 270px;
@@ -570,8 +563,7 @@ body
     z-index: -1;
   }
 
-
-    .third-border-container
+  .third-border-container
   {
     width: 170px;
     height: 170px;
@@ -601,6 +593,7 @@ body
     -webkit-animation: Rotate 6s linear infinite;
     z-index: -1;
   }
+
   .red-ball
   {
     position: absolute;
@@ -610,7 +603,8 @@ body
     left: calc(52% - 25px);
     border: 2px solid;
   }
-    .blue-ball
+
+  .blue-ball
   {
     position: absolute;
     width: 60px;
@@ -634,6 +628,7 @@ body
     height: auto;
     width: 100%;
   }
+  
   .electron, .energy, .have
   {
     font-size: 60px;
