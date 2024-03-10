@@ -601,6 +601,24 @@ body
     -webkit-animation: Rotate 6s linear infinite;
     z-index: -1;
   }
+  .red-ball
+  {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 25px);
+    left: calc(52% - 25px);
+    border: 2px solid;
+  }
+    .blue-ball
+  {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 25px);
+    left: calc(47% - 25px);
+    border: 2px solid;
+  }
 }
 
 @media only screen and (min-width: 1024px)
