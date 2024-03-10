@@ -3,6 +3,8 @@ body
   background-color: #1e1919;
   font: 'Nunito Sans', sans-serif;
   font-weight: bold;
+
+ /* transform: translate(-50%, -50%); */
 }
 
 .outer-border-container
@@ -16,7 +18,9 @@ body
   left: 0;
   right: 0;
   margin: auto;
-  border-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  clip-path: ellipse(62% 100% at 50% 0%);
 }
 
 .outer-circle
@@ -217,15 +221,6 @@ body
 
 @media only screen and (min-width: 768px)
 {
-  .header
-  {
-    position: absolute;
-    transform: translate(-57%, -50%);
-    font-size: 50px;
-    height: auto;
-    display: block;
-    width: 100%;
-  }
   .footer
   {
     position: absolute;
@@ -237,17 +232,6 @@ body
 }
 @media only screen and (min-width: 820px)
 {
-  .header
-  {
-    position: absolute;
-    top: 20%;
-    left: 65%;
-    transform: translate(-60%, -50%);
-    font-size: 60px;
-    z-index: 10;
-    height: auto;
-    width: 100%;
-  }
   .footer
   {
     position: absolute;
@@ -263,17 +247,6 @@ body
 
 @media only screen and (min-width: 1024px)
 {
-  .header
-  {
-    position: absolute;
-    top: 20%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    z-index: 10;
-    height: auto;
-    width: 100%;
-  }
   .footer
   {
     position: absolute;
