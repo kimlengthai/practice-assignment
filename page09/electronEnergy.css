@@ -14,7 +14,7 @@ body
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 100px;
   margin: auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -80,7 +80,7 @@ body
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 100px;
   margin: auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -145,7 +145,7 @@ body
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  right: 100px;
   margin: auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -204,13 +204,16 @@ body
 .footer
 {
   position: absolute;
-  top: 80%;
-  left: 80%;
+  top: 70%;
+  left: 67%;
   transform: translate(-50%, -50%);
-  font-size: 60px;
-  z-index: 10;
   height: auto;
   width: 100%;
+}
+.electron, .energy, .have
+{
+    font-size: 50px;
+    right: 100px;
 }
 .electron
 {
