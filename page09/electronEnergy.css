@@ -1,0 +1,290 @@
+body
+{
+  background-color: #1e1919;
+  font: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+
+.outer-border-container
+{
+  width: 350px;
+  height: 350px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.outer-circle
+{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: outer-circle 4s linear infinite;
+  animation: outer-circle 4s linear infinite;
+}
+
+@-webkit-keyframes outer-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-175px)rotate(0deg);
+  }
+  50%
+  {
+    transform: rotate(180deg)translate(-175px)rotate(180deg);
+  }
+  100%
+  {
+    transform: rotate(0deg)translate(-175px)rotate(0deg);
+  }
+}
+
+@keyframes outer-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-175px)rotate(0deg);
+  }
+  50%
+  {
+    transform: rotate(180deg)translate(-175px)rotate(180deg);
+  }
+  100%
+  {
+    transform: rotate(0deg)translate(-175px)rotate(0deg);
+  }
+}
+
+
+.second-border-container
+{
+  width: 270px;
+  height: 270px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.second-circle
+{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: second-circle 5s linear infinite;
+  animation: second-circle 5s linear infinite;
+}
+
+@-webkit-keyframes second-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-135px)rotate(0deg);
+  }
+  50%
+  {
+    transform: rotate(180deg)translate(-135px)rotate(180deg);
+  }
+  100%
+  {
+    transform: rotate(0deg)translate(-135px)rotate(0deg);
+  }
+}
+
+@keyframes second-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-135px)rotate(0deg);
+  }
+  50%
+  {
+    transform: rotate(180deg)translate(-135px)rotate(180deg);
+  }
+  100%
+  {
+    transform: rotate(0deg)translate(-135px)rotate(0deg);
+  }
+}
+
+.third-border-container
+{
+  width: 170px;
+  height: 170px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+
+.inner-circle
+{
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  margin: auto;
+  -webkit-animation: inner-circle 6s linear infinite;
+  animation: inner-circle 6s linear infinite;
+}
+
+@-webkit-keyframes inner-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-85px)rotate(0deg);
+  }
+  50%
+  {
+    transform: rotate(180deg)translate(-85px)rotate(180deg);
+  }
+  100%
+  {
+    transform: rotate(0deg)translate(-85px)rotate(0deg);
+  }
+}
+
+@keyframes inner-circle
+{
+  0%
+  {
+    transform: rotate(0deg)translate(-85px)rotate(0deg);
+  }
+  50%
+  {
+    transform: rotate(180deg)translate(-85px)rotate(180deg);
+  }
+  100%
+  {
+    transform: rotate(0deg)translate(-85px)rotate(0deg);
+  }
+}
+.footer
+{
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  z-index: 10;
+  height: auto;
+  width: 100%;
+}
+.electron
+{
+    color: green;
+}
+.energy
+{
+    color: yellow;
+}
+
+@media only screen and (min-width: 768px)
+{
+  .header
+  {
+    position: absolute;
+    transform: translate(-57%, -50%);
+    font-size: 50px;
+    height: auto;
+    display: block;
+    width: 100%;
+  }
+  .footer
+  {
+    position: absolute;
+    transform: translate(-55%, -50%);
+    font-size: 60px;
+    height: auto;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 820px)
+{
+  .header
+  {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-60%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
+  .footer
+  {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-55%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px)
+{
+  .header
+  {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
+  .footer
+  {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    z-index: 10;
+    height: auto;
+    width: 100%;
+  }
+}
+
+
