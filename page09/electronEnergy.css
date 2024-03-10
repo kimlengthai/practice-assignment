@@ -451,6 +451,38 @@ body
     }
 }
 
+.red-ball 
+{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: calc(50% - 25px);
+  left: calc(45% - 25px);
+  border: 2px solid;
+}
+.blue-ball
+{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: calc(50% - 25px);
+  left: calc(40% - 25px);
+  border: 2px solid;
+}
+
+.blue-ball 
+{
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.red-ball 
+{
+  background-color: red;
+  border-radius: 50%;
+}
+
+
 @media only screen and (min-width: 768px)
 {
   .footer
