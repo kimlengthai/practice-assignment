@@ -83,7 +83,7 @@ body
   top: 0;
   left: 0;
   animation: Rotate 20s linear infinite;
-  -webkit-animation: Rotate 20s lienar infinite;
+  -webkit-animation: Rotate 20s linear infinite;
 }
 
 .sunlight-box span
