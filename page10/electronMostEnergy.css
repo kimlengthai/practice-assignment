@@ -204,16 +204,13 @@ body
 {
   position: absolute;
   top: 70%;
-  left: 67%;
+  left: 60%;
   transform: translate(-50%, -50%);
-  height: auto;
-  width: 100%;
 }
 
-.electron, .energy, .have
+.this, .electron, .energy, .have
 {
-    font-size: 50px;
-    right: 100px;
+    font-size: 40px;
 }
 .electron
 {
