@@ -572,12 +572,14 @@ body
   {
     background-color: red;
     border-radius: 50%;
+    left: calc(49% - 25px);
   }
 
   .blue-ball 
   {
     background-color: blue;
     border-radius: 50%;
+    left: calc(44% - 25px);
   }
 
 }
