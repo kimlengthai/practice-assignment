@@ -55,7 +55,7 @@ body
 }
 
 @keyframes outer-circle
-{
+{   
   0%
   {
     transform: rotate(0deg)translate(-175px)rotate(0deg);
@@ -221,7 +221,7 @@ body
 }
 .quantized
 {
-    color: yellow;
+    color: gray;
 }
 
 .sunlight-box
