@@ -210,12 +210,12 @@ body
   width: 100%;
 }
 
-.electron, .quantized, .is
+.energy, .quantized, .is
 {
     font-size: 50px;
     right: 100px;
 }
-.electron
+.energy
 {
     color: green;
 }
@@ -629,7 +629,7 @@ body
     width: 100%;
   }
   
-  .electron, .quantized, .is
+  .energy, .quantized, .is
   {
     font-size: 60px;
     right: 30px;
