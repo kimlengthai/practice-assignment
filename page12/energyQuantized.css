@@ -203,17 +203,8 @@ body
 .footer
 {
   position: absolute;
-  top: 70%;
-  left: 67%;
-  transform: translate(-50%, -50%);
   height: auto;
   width: 100%;
-}
-
-.energy, .quantized, .is
-{
-    font-size: 50px;
-    right: 100px;
 }
 .energy
 {
@@ -480,10 +471,11 @@ body
   .footer
   {
     position: absolute;
-    transform: translate(-55%, -50%);
+    transform: translate(10%, 50%);
     font-size: 60px;
     height: auto;
     width: 100%;
+    top: 600px;
   }
 }
 
