@@ -23,8 +23,8 @@ body
 
 .outer-circle
 {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   background-color: green;
   border-radius: 50%;
   position: absolute;
@@ -42,15 +42,15 @@ body
 {
   0%
   {
-    transform: rotate(0deg)translate(-175px)rotate(0deg);
+    transform: rotate(0deg)translate(-180px)rotate(0deg);
   }
   50%
   {
-    transform: rotate(180deg)translate(-175px)rotate(180deg);
+    transform: rotate(180deg)translate(-180px)rotate(180deg);
   }
   100%
   {
-    transform: rotate(0deg)translate(-175px)rotate(0deg);
+    transform: rotate(0deg)translate(-180px)rotate(0deg);
   }
 }
 
@@ -58,15 +58,15 @@ body
 {   
   0%
   {
-    transform: rotate(0deg)translate(-175px)rotate(0deg);
+    transform: rotate(0deg)translate(-180px)rotate(0deg);
   }
   50%
   {
-    transform: rotate(180deg)translate(-175px)rotate(180deg);
+    transform: rotate(180deg)translate(-180px)rotate(180deg);
   }
   100%
   {
-    transform: rotate(0deg)translate(-175px)rotate(0deg);
+    transform: rotate(0deg)translate(-180px)rotate(0deg);
   }
 }
 
@@ -305,8 +305,8 @@ body
 }
 .sunlight-box-2 span
 {
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   background-color: #f8a037;
   position: absolute;
   top: 0;
@@ -378,8 +378,8 @@ body
 }
 .sunlight-box-3 span
 {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   background-color: #f8a037;
   position: absolute;
   top: 0;
