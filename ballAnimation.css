@@ -9,7 +9,7 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: transaprent;
+    background-color: transparent;
     width: 100%;
     height: 300px;
 }
@@ -22,40 +22,67 @@ body
     background-color: red;
     left: 50px;
     top: -300px;
-    animation: movement 3s linear 1 forwards;
+    animation: movement 17s linear 1 forwards;
+}
+
+.ball-shadow
+{
+    opacity: 0;
+    animation: reveal-shadows 3s linear 2s forwards;
+}
+@keyframes reveal-shadows 
+{
+    0%
+    {
+        opacity: 0.6;
+    }
+    100%
+    {
+        opacity: 0.6;
+    }    
 }
 
 .ball-shadow:nth-child(2)
 {
-    animation-delay: .2s;
-    opacity: .6;
+    animation-delay: 2s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
     position: absolute;
     background-color: red;
     left: 200px;
-    top: -540px;
-    animation: movement-shadow 2s linear;
+    top: -535px;
+    animation: reveal-shadows .1s linear .1s forwards;
 }
-.ball-shadow:nth-child(3)
+.ball-shadow:nth-child(17)
 {
-    animation-delay: .3s;
-    opacity: .6;
+    animation-delay: 3s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
     position: absolute;
     background-color: red;
-    left: 240px;
-    top: -460px;
+    left: 210px;
+    top: -490px;
+    transform: rotate(160deg);
+    animation: reveal-shadows .6s linear .6s forwards;
+}
+.ball-shadow:nth-child(3)
+{
+    animation-delay: 4s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 250px;
+    top: -455px;
     transform: rotate(320deg);
-    animation: movement-shadow 2s linear;
+    animation: reveal-shadows 1.2s linear 1.2s forwards;
 }
 .ball-shadow:nth-child(4)
 {
-    animation-delay: .4s;
-    opacity: .6;
+    animation-delay: 5s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
@@ -64,12 +91,11 @@ body
     left: 305px;
     top: -420px;
     transform: rotate(320deg);
-    animation: movement-shadow 2s linear;
+    animation: reveal-shadows 3.0s linear 3.0s forwards;
 }
 .ball-shadow:nth-child(5)
 {
-    animation-delay: .5s;
-    opacity: .6;
+    animation-delay: 6s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
@@ -78,12 +104,11 @@ body
     left: 345px;
     top: -385px;
     transform: rotate(320deg);
-    animation: movement-shadow 2s linear;
+    animation: reveal-shadows 4s linear 4s forwards;
 }
 .ball-shadow:nth-child(6)
 {
-    animation-delay: .6s;
-    opacity: .6;
+    animation-delay: 7s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
@@ -92,12 +117,11 @@ body
     left: 385px;
     top: -345px;
     transform: rotate(320deg);
-    animation: movement-shadow 2s linear;
+    animation: reveal-shadows 5s linear 5s forwards;
 }
 .ball-shadow:nth-child(7)
 {
-    animation-delay: .7s;
-    opacity: .6;
+    animation-delay: 8s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
@@ -106,12 +130,11 @@ body
     left: 415px;
     top: -310px;
     transform: rotate(320deg);
-    animation: movement-shadow 2s linear;
+    animation: reveal-shadows 6s linear 6s forwards;
 }
 .ball-shadow:nth-child(8)
 {
-    animation-delay: .8s;
-    opacity: .6;
+    animation-delay: 9s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
@@ -120,97 +143,110 @@ body
     left: 445px;
     top: -310px;
     transform: rotate(220deg);
-    animation: movement-shadow 2s linear;
+    animation: reveal-shadows 7s linear 7s forwards;
 }
 .ball-shadow:nth-child(9)
 {
-    animation-delay: .9s;
-    opacity: .6;
+    animation-delay: 10s;
     width: 10px;
     height: 30px;
     border-radius: 50%;
     position: absolute;
     background-color: red;
-    left: 445px;
-    top: -310px;
-    transform: rotate(220deg);
-    animation: movement-shadow 2s linear;
+    left: 485px;
+    top: -290px;
+    transform: rotate(130deg);
+    animation: reveal-shadows 8s linear 8s forwards;
 }
 .ball-shadow:nth-child(10)
 {
-    animation-delay: .10s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 11s;
+    width: 10px;
     height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 525px;
+    top: -250px;
+    transform: rotate(130deg);
+    animation: reveal-shadows 10s linear 10s forwards;
 }
 .ball-shadow:nth-child(11)
 {
-    animation-delay: .11s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 12s;
+    width: 10px;
     height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 560px;
+    top: -200px;
+    transform: rotate(130deg);
+    animation: reveal-shadows 12s linear 12s forwards;
 }
 .ball-shadow:nth-child(12)
 {
-    animation-delay: .12s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 13s;
+    width: 10px;
     height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 610px;
+    top: -170px;
+    transform: rotate(90deg);
+    animation: reveal-shadows 13.9s linear 13.9s forwards;
 }
 .ball-shadow:nth-child(13)
 {
-    animation-delay: .13s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 14s;
+    width: 10px;
     height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 640px;
+    top: -130px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 14s linear 14s forwards;
 }
 .ball-shadow:nth-child(14)
 {
-    animation-delay: .14s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 15s;
+    width: 10px;
     height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 665px;
+    top: -70px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 15s linear 15s forwards;
 }
 .ball-shadow:nth-child(15)
 {
-    animation-delay: .15s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 16s;
+    width: 10px;
     height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 690px;
+    top: -10px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 15.5s linear 15.5s forwards;
 }.ball-shadow:nth-child(16)
 {
-    animation-delay: .16s;
-    opacity: .6;
-    width: 30px;
+    animation-delay: 17s;
+    width: 10px;
     height: 30px;
-}
-.ball-shadow:nth-child(17)
-{
-    animation-delay: .17s;
-    opacity: .6;
-    width: 30px;
-    height: 30px;
-}
-.ball-shadow:nth-child(18)
-{
-    animation-delay: .18s;
-    opacity: .6;
-    width: 30px;
-    height: 30px;
-}
-.ball-shadow:nth-child(19)
-{
-    animation-delay: .19s;
-    opacity: .6;
-    width: 30px;
-    height: 30px;
-}
-.ball-shadow:nth-child(20)
-{
-    animation-delay: .20s;
-    opacity: .6;
-    width: 30px;
-    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 720px;
+    top: 50px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 16.5s linear 16.5s forwards;
 }
 
 .shadow
@@ -280,142 +316,4 @@ body
         transform: rotate(360deg) translateY(-250px) translateX(300px);
     }
 }
-
-
-
-
-
-
-
-
-/*
-body {
-    background-color: gray;
-    overflow: hidden;
-  }
-  
-  .outer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    width: 100%;
-    height: 300px;
-  }
-  
-  .ball {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    border-radius: 50%;
-    background-color: red;
-    left: 50px;
-    top: -300px;
-    animation: movement 3s linear 1 forwards;
-  }
-  
-  .ball:nth-child(2) {
-    animation-delay: 0.2s;
-    opacity: 0.6;
-    width: 150px;
-    height: 10px;
-  }
-  
-  .shadow {
-    position: absolute;
-    top: -400px;
-    left: 200px;
-    height: 20px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50%;
-    box-shadow: 0 0 10px black;
-    z-index: -1;
-  }
-  
-  .shadow-2 {
-    position: absolute;
-    top: -280px;
-    left: 350px;
-    height: 20px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50%;
-    box-shadow: 0 0 10px black;
-    z-index: -1;
-  }
-  
-  .shadow-3 {
-    position: absolute;
-    top: -160px;
-    left: 500px;
-    height: 20px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50%;
-    box-shadow: 0 0 10px black;
-    z-index: -1;
-  }
-  .trail {
-    position: absolute;
-    width: 10px;
-    height: 100%;
-    background-color: rgba(255, 0, 0, 0.2);
-  }
-  
-  .ball:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: inherit;
-    animation: trailMove 3s linear infinite;
-  }
-  
-  @keyframes movement {
-    0% {
-      top: -300px;
-      left: 50px;
-      transform: translateY(-250px) translateX(150px);
-      animation-timing-function: ease-out;
-    }
-  
-    10% {
-      top: -350px;
-      animation-timing-function: ease-in;
-      transform: translateY(-100px) translateX(150px);
-    }
-  
-    30% {
-      top: -350px;
-      animation-timing-function: ease-in-out;
-      transform: translateY(30px) translateX(200px);
-    }
-  
-    80% {
-      top: 10px;
-      animation-timing-function: ease-out;
-      transform: rotate(360deg) translateY(-200px) translateX(200px);
-    }
-  
-    100% {
-      top: 300px;
-      left: calc(50% - 100px);
-      animation-timing-function: ease-out;
-      transform: rotate(360deg) translateY(-250px) translateX(300px);
-    }
-  }
-  
-  @keyframes trailMove {
-    0% {
-      transform: translateY(0);
-    }
-  
-    100% {
-      transform: translateY(-100%);
-    }
-  }
-  */
   
