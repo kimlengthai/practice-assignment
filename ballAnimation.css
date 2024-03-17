@@ -1,6 +1,6 @@
 body
 {
-    background-color: gray;
+    background-color: lightblue;
     overflow: hidden;
 }
 .outer
@@ -49,7 +49,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 215px;
     top: -535px;
     animation: reveal-shadows .1s linear .1s forwards;
@@ -61,7 +61,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 220px;
     top: -490px;
     transform: rotate(160deg);
@@ -74,7 +74,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 250px;
     top: -455px;
     transform: rotate(320deg);
@@ -87,7 +87,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 305px;
     top: -420px;
     transform: rotate(320deg);
@@ -100,7 +100,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 345px;
     top: -385px;
     transform: rotate(320deg);
@@ -113,7 +113,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 385px;
     top: -345px;
     transform: rotate(320deg);
@@ -126,7 +126,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 415px;
     top: -310px;
     transform: rotate(320deg);
@@ -139,7 +139,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 445px;
     top: -310px;
     transform: rotate(220deg);
@@ -152,7 +152,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 485px;
     top: -290px;
     transform: rotate(130deg);
@@ -165,7 +165,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 525px;
     top: -250px;
     transform: rotate(130deg);
@@ -178,7 +178,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 560px;
     top: -200px;
     transform: rotate(130deg);
@@ -191,7 +191,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 610px;
     top: -170px;
     transform: rotate(90deg);
@@ -204,7 +204,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 640px;
     top: -130px;
     transform: rotate(160deg);
@@ -217,7 +217,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 665px;
     top: -70px;
     transform: rotate(160deg);
@@ -230,7 +230,7 @@ body
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    background-color: red;
+    background-color: black;
     left: 690px;
     top: -10px;
     transform: rotate(160deg);
@@ -256,7 +256,7 @@ body
     left: 200px;
     height: 20px;
     width: 100px;
-    background-color: black;
+    background-color: gray;
     border-radius: 50%;
     box-shadow: 0 0 10px black;
     z-index: -1;
@@ -268,7 +268,7 @@ body
     left: 350px;
     height: 20px;
     width: 100px;
-    background-color: black;
+    background-color: gray;
     border-radius: 50%;
     box-shadow: 0 0 10px black;
     z-index: -1;
@@ -280,7 +280,7 @@ body
     left: 500px;
     height: 20px;
     width: 100px;
-    background-color: black;
+    background-color: gray;
     border-radius: 50%;
     box-shadow: 0 0 10px black;
     z-index: -1;
