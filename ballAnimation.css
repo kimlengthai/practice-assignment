@@ -50,7 +50,7 @@ body
     border-radius: 50%;
     position: absolute;
     background-color: red;
-    left: 200px;
+    left: 215px;
     top: -535px;
     animation: reveal-shadows .1s linear .1s forwards;
 }
@@ -62,7 +62,7 @@ body
     border-radius: 50%;
     position: absolute;
     background-color: red;
-    left: 210px;
+    left: 220px;
     top: -490px;
     transform: rotate(160deg);
     animation: reveal-shadows .6s linear .6s forwards;
