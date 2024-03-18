@@ -118,7 +118,7 @@ body
     left: 385px;
     top: -345px;
     transform: rotate(320deg);
-    animation: reveal-shadows 5s linear 5s forwards;
+    animation: reveal-shadows 4.8s linear 4.8s forwards;
 }
 .ball-shadow:nth-child(7)
 {
@@ -131,7 +131,7 @@ body
     left: 415px;
     top: -310px;
     transform: rotate(320deg);
-    animation: reveal-shadows 6s linear 6s forwards;
+    animation: reveal-shadows 5.5s linear 5.5s forwards;
 }
 .ball-shadow:nth-child(8)
 {
@@ -144,7 +144,7 @@ body
     left: 445px;
     top: -310px;
     transform: rotate(220deg);
-    animation: reveal-shadows 7s linear 7s forwards;
+    animation: reveal-shadows 6s linear 6s forwards;
 }
 .ball-shadow:nth-child(9)
 {
