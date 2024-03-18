@@ -23,6 +23,7 @@ body
     left: 50px;
     top: -300px;
     animation: movement 17s linear 1 forwards;
+    z-index: 1;
 }
 
 .ball-shadow
@@ -65,7 +66,7 @@ body
     left: 220px;
     top: -490px;
     transform: rotate(160deg);
-    animation: reveal-shadows .6s linear .6s forwards;
+    animation: reveal-shadows .9s linear .9s forwards;
 }
 .ball-shadow:nth-child(3)
 {
@@ -78,7 +79,7 @@ body
     left: 250px;
     top: -455px;
     transform: rotate(320deg);
-    animation: reveal-shadows 1.2s linear 1.2s forwards;
+    animation: reveal-shadows 1.5s linear 1.5s forwards;
 }
 .ball-shadow:nth-child(4)
 {
@@ -195,7 +196,7 @@ body
     left: 610px;
     top: -170px;
     transform: rotate(90deg);
-    animation: reveal-shadows 13.9s linear 13.9s forwards;
+    animation: reveal-shadows 14s linear 14s forwards;
 }
 .ball-shadow:nth-child(13)
 {
@@ -208,7 +209,7 @@ body
     left: 640px;
     top: -130px;
     transform: rotate(160deg);
-    animation: reveal-shadows 14s linear 14s forwards;
+    animation: reveal-shadows 14.2s linear 14.2s forwards;
 }
 .ball-shadow:nth-child(14)
 {
@@ -315,5 +316,14 @@ body
         animation-timing-function: ease-out;
         transform: rotate(360deg) translateY(-250px) translateX(300px);
     }
+}
+.baby-university
+{
+    font-size: 100px;
+    position: absolute;
+    top: 15%;
+    left: 15.6%;
+    z-index: -1;
+    color: darkblue
 }
   
