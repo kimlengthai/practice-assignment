@@ -1,0 +1,395 @@
+body
+{
+    background-color: lightblue;
+    overflow: hidden;
+}
+.outer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+}
+.ball
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    left: 50px;
+    top: -300px;
+    animation: movement 17s linear 1 forwards;
+    z-index: 1;
+}
+
+.ball-shadow
+{
+    opacity: 0;
+    animation: reveal-shadows 3s linear 2s forwards;
+}
+@keyframes reveal-shadows 
+{
+    0%
+    {
+        opacity: 0.6;
+    }
+    100%
+    {
+        opacity: 0.6;
+    }    
+}
+
+.ball-shadow:nth-child(2)
+{
+    animation-delay: 2s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 215px;
+    top: -535px;
+    animation: reveal-shadows .1s linear .1s forwards;
+}
+.ball-shadow:nth-child(17)
+{
+    animation-delay: 3s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 220px;
+    top: -490px;
+    transform: rotate(160deg);
+    animation: reveal-shadows .9s linear .9s forwards;
+}
+.ball-shadow:nth-child(3)
+{
+    animation-delay: 4s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 250px;
+    top: -455px;
+    transform: rotate(320deg);
+    animation: reveal-shadows 1.5s linear 1.5s forwards;
+}
+.ball-shadow:nth-child(4)
+{
+    animation-delay: 5s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 305px;
+    top: -420px;
+    transform: rotate(320deg);
+    animation: reveal-shadows 3.0s linear 3.0s forwards;
+}
+.ball-shadow:nth-child(5)
+{
+    animation-delay: 6s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 345px;
+    top: -385px;
+    transform: rotate(320deg);
+    animation: reveal-shadows 4s linear 4s forwards;
+}
+.ball-shadow:nth-child(6)
+{
+    animation-delay: 7s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 385px;
+    top: -345px;
+    transform: rotate(320deg);
+    animation: reveal-shadows 4.8s linear 4.8s forwards;
+}
+.ball-shadow:nth-child(7)
+{
+    animation-delay: 8s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 415px;
+    top: -310px;
+    transform: rotate(320deg);
+    animation: reveal-shadows 5.5s linear 5.5s forwards;
+}
+.ball-shadow:nth-child(8)
+{
+    animation-delay: 9s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 445px;
+    top: -310px;
+    transform: rotate(220deg);
+    animation: reveal-shadows 6s linear 6s forwards;
+}
+.ball-shadow:nth-child(9)
+{
+    animation-delay: 10s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 485px;
+    top: -290px;
+    transform: rotate(130deg);
+    animation: reveal-shadows 8s linear 8s forwards;
+}
+.ball-shadow:nth-child(10)
+{
+    animation-delay: 11s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 525px;
+    top: -250px;
+    transform: rotate(130deg);
+    animation: reveal-shadows 10s linear 10s forwards;
+}
+.ball-shadow:nth-child(11)
+{
+    animation-delay: 12s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 560px;
+    top: -200px;
+    transform: rotate(130deg);
+    animation: reveal-shadows 12s linear 12s forwards;
+}
+.ball-shadow:nth-child(12)
+{
+    animation-delay: 13s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 610px;
+    top: -170px;
+    transform: rotate(90deg);
+    animation: reveal-shadows 14s linear 14s forwards;
+}
+.ball-shadow:nth-child(13)
+{
+    animation-delay: 14s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 640px;
+    top: -130px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 14.2s linear 14.2s forwards;
+}
+.ball-shadow:nth-child(14)
+{
+    animation-delay: 15s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 665px;
+    top: -70px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 15s linear 15s forwards;
+}
+.ball-shadow:nth-child(15)
+{
+    animation-delay: 16s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    left: 690px;
+    top: -10px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 15.5s linear 15.5s forwards;
+}.ball-shadow:nth-child(16)
+{
+    animation-delay: 17s;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    left: 720px;
+    top: 50px;
+    transform: rotate(160deg);
+    animation: reveal-shadows 16.5s linear 16.5s forwards;
+}
+
+.shadow
+{
+    position: absolute;
+    top: -400px;
+    left: 200px;
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    z-index: -1;
+}
+.shadow-2
+{
+    position: absolute;
+    top: -280px;
+    left: 350px;
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    z-index: -1;
+}
+.shadow-3
+{
+    position: absolute;
+    top: -160px;
+    left: 500px;
+    height: 20px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    z-index: -1;
+}
+
+@keyframes movement {
+    0% {
+        top: -300px;
+        left: 50px;
+        transform: translateY(-250px) translateX(150px);
+        animation-timing-function: ease-out; 
+    }
+    10% {
+        top: -350px;
+        animation-timing-function: ease-in;
+        transform: translateY(-100px) translateX(150px);
+    }
+    30% {
+        top: -350px;
+        animation-timing-function: ease-in-out;
+        transform: translateY(30px) translateX(200px);
+    }
+    
+    80% {
+        top: 10px;
+        animation-timing-function: ease-out;
+        transform: rotate(360deg) translateY(-200px) translateX(200px);
+    }
+    100% {
+        top: 300px;
+        left: calc(50% - 100px);
+        animation-timing-function: ease-out;
+        transform: rotate(360deg) translateY(-250px) translateX(300px);
+    }
+}
+.baby-university
+{
+    font-size: 100px;
+    position: absolute;
+    top: 15%;
+    left: 15.6%;
+    z-index: -1;
+    color: darkblue
+}
+
+body
+{
+    background-color: lightblue;
+    overflow: hidden;
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+}
+.ball-yellow-top
+{
+    background-color: rgb(246, 255, 44);
+    border-radius: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 500px;
+    top: -20px;
+}
+.ball-yellow-bottom
+{
+    background-color: rgb(246, 255, 44);
+    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    right: 120px;
+    bottom: -100px;
+}
+.ball-red
+{
+    background-color: rgb(251, 114, 126);
+    border-radius: 50%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 150px;
+    left: -60px;
+}
+.ball-green-right
+{
+    background-color: rgb(162, 193, 60);
+    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: -80px;
+    top: 200px;
+}
+.ball-green-bottom
+{
+    background-color: rgb(162, 193, 60);
+    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 50px;
+    bottom: -110px;
+}
+  
